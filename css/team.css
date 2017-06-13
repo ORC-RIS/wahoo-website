@@ -1,0 +1,165 @@
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix-top {
+	width: 100%;
+}
+
+ul.affix{
+	width:263px;
+}
+
+@media (max-width:1200px){
+	ul.affix{
+		width:213px;
+	}
+	ul.affix-top{
+		width:100.5%;
+	}
+}
+
+.affix-bottom {
+	position: fixed;
+	width: 100%;  
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+
+a.page-scroll {
+  color: rgba(0,0,0,0.7);
+}
+
+a.page-scroll:hover,
+a.page-scroll:focus,
+a.page-scroll:active,
+a.page-scroll.active {
+  color: #FFC904;
+  border-bottom:none;
+  padding-bottom:11px;
+  border-top:none;
+  padding-top:11px;
+  border-radius:0;
+}
+
+@media (max-height:900px){
+	ul.affix li a{
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	ul.affix-top li a{
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+	
+	ul.affix li a.page-scroll:hover,
+	ul.affix li a.page-scroll:focus,
+	ul.affix li a.page-scroll:active,
+	ul.affix li a.page-scroll.active{
+		padding-top:6px;
+		padding-bottom:6px;
+	}
+	ul.affix-top li a.page-scroll:hover,
+	ul.affix-top li a.page-scroll:focus,
+	ul.affix-top li a.page-scroll:active,
+	ul.affix-top li a.page-scroll.active{
+		padding-top:6px;
+		padding-bottom:6px;
+	}	
+}
+
+ul.nav-stacked{
+	border-bottom:none;
+}
+
+ul.affix{
+	padding-top:70px;
+}
+
+#mainNav{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-custom {
+  background-color: black;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-brand {
+  color: rgba(255,202,6,1);
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 1.5em;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: rgba(255,202,6,0.9);
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: rgba(255,202,6,1);
+  border-color: rgba(255,202,6,0.9);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: rgba(255,202,6,1);
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: rgba(250,197,1,1);
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: rgba(255,202,6,1);
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: rgba(255,202,6,1);
+}
+
+body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:hover,
+body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:focus,
+body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:active,
+body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a.active{
+	background-color:black;
+	border-left:solid thick #FFC904;
+	border-right:solid thick black;
+}
+
+#head{
+	padding-top:70px;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer{
+	margin-top:50px;
+}

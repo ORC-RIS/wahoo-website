@@ -1,0 +1,462 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-muted {
+  color: rgba(0, 0, 0, 0.8);
+}
+.text-primary {
+  color: black;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: rgba(255,202,6,1);
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: rgba(255,202,6,1);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:black;
+}
+.img-centered {
+  margin: 0 auto;
+}
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+.btn-primary {
+  color: white;
+  background-color: rgba(255,202,6,1);
+  border-color: rgba(255,202,6,1);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: rgba(255,202,6,0.9);
+  border-color: #f6bf01;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: rgba(255,202,6,0.9);
+  border-color: rgba(255,202,6,0.9);
+}
+
+.btn-xl {
+  color: white;
+  background-color: rgba(255,202,6,1);
+  border-color: rgba(255,202,6,1);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: rgba(250,197,1,1);
+  border-color: rgba(250,197,1,1);
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  background-image: none;
+}
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: black;
+  border-color: black;
+}
+
+.navbar-custom {
+  background-color: black;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-brand {
+  color: rgba(255,202,6,1);
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: rgba(255,202,6,0.9);
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: rgba(255,202,6,1);
+  border-color: rgba(255,202,6,0.9);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: rgba(255,202,6,1);
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: rgba(250,197,1,1);
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: rgba(255,202,6,1);
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: rgba(255,202,6,1);
+}
+@media (min-width: 992px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+header {
+  background: linear-gradient(
+      rgba(0,0,0,0.7), 
+      rgba(255,255,255,0.3)
+    ),
+	url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+/* General styling */
+.btn{
+	white-space:normal;
+} 
+
+#team .my-button{
+	margin-top:10px;
+}
+
+ #documentation div div .my-button{
+	margin-top:20px;
+ }
+
+#mainNav.affix{
+	background-color:black;
+}
+
+/* Index Styling */
+
+.intro-lead-in{
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, 
+		#000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+		#000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, 
+		#000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Overview Styling */
+#timeline-head{
+	padding-top:30px;
+}
+
+section {
+  padding: 50px 0;
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+hr{
+	margin-left:25%;
+	margin-right:25%;
+	border-color:rgb(119,119,119);
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 75px 0;
+  }
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+/* Project Teams Styling */
+
+table{
+	color:black;
+}
+
+table thead{
+	background-color:black;
+}
+
+table tr th:nth-child(1){
+	width:40%;
+}
+table tr th:nth-child(2){
+	width:20%;
+}
+table tr th:nth-child(3){
+	width:40%;
+}
+
+table.resizeable { 
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-family: Agenda-Light, sans-serif;
+  font-weight: 100; 
+  background: #333; color: #fff;
+  text-rendering: optimizeLegibility;
+  border-radius: 5px; 
+  width:100%;
+}
+
+table.resizeable thead th { font-weight: 600; }
+table.resizeable thead th, table.resizeable tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+}
+table.resizeable tbody td { 
+  padding: .8rem; font-size: 1.4rem;
+  color: #444; background: #eee; 
+}
+table.resizeable tbody tr:not(:last-child) { 
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000; 
+}
+
+/* Documentations Styling */
+
+.documents{
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: black;
+}
+
+.documents div img{
+	padding:32px;
+}
+
+#document-list{
+	margin-top:10px;
+}
+#documentation > div > div:nth-child(2){
+	padding-top:20px;
+}
+
+/* Contact Styling */
+
+#phone{
+	color:rgba(255,202,6,1);
+}
+
+#contact-info-large, #contact-info-medium, #contact-info-small{
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:rgb(34,34,34);
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(100,100,100);
+	border-radius: 5px;
+}
+
+#contact-info-medium div img{
+	height:90px;
+	max-width:100%;
+}
+
+#contact-info-small{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#contact-info-small div img{
+	height:50px;
+	max-width:100%;
+}
+
+#contact h3{
+	color:white;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color:white;
+  background-color:black;
+}
+
+footer div{
+	font-size:1em;
+}
+
+section#contact {
+  background-color: #222222;
+  background-image: url('../img/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section#contact .section-heading {
+  color: white;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: rgba(255,202,6,0.9);
+}
+::selection {
+  text-shadow: none;
+  background: rgba(255,202,6,0.9);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255,202,6,0.9);
+}
+ 
