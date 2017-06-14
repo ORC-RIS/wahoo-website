@@ -236,6 +236,7 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  padding-bottom:45px;
 }
 header .intro-text {
   padding-top: 100px;
@@ -297,9 +298,12 @@ header .intro-text .intro-lead-in {
 section {
   padding: 50px 0;
 }
+section div{
+	margin-bottom:30px;
+}
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
+  margin-top: 60px;
   margin-bottom: 15px;
 }
 

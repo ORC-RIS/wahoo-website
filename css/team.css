@@ -142,10 +142,10 @@ ul.affix{
   background-color: rgba(255,202,6,1);
 }
 
-body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:hover,
-body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:focus,
-body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a:active,
-body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a.active{
+#sidenav > li > a:hover,
+#sidenav > li > a:focus,
+#sidenav > li > a:active,
+#sidenav > li > a.active{
 	background-color:black;
 	border-left:solid thick #FFC904;
 	border-right:solid thick black;
@@ -156,8 +156,13 @@ body > div:nth-child(3) > div > div.col-md-3.hidden-xs.hidden-sm > ul > li > a.a
 }
 
 body {
+	position:relative;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#filler{
+	margin-top:70px;
 }
 
 footer{
