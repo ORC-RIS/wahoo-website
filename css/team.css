@@ -38,7 +38,6 @@ a.page-scroll {
 }
 
 a.page-scroll:hover,
-a.page-scroll:focus,
 a.page-scroll:active,
 a.page-scroll.active {
   color: #FFC904;
@@ -143,7 +142,6 @@ ul.affix{
 }
 
 #sidenav > li > a:hover,
-#sidenav > li > a:focus,
 #sidenav > li > a:active,
 #sidenav > li > a.active{
 	background-color:black;
