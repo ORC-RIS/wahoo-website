@@ -441,6 +441,8 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
+  padding-top:150px;
+  padding-bottom:150px;
 }
 section#contact .section-heading {
   color: white;
