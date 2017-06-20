@@ -25,6 +25,17 @@ ul.affix{
 	width: 100%;  
 }
 
+div div div.col-md-9 div{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+#head,
+div div div.col-md-9 div.text-center{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
 a,
 a:hover,
 a:focus,
@@ -144,10 +155,23 @@ ul.affix{
 #sidenav > li > a:hover,
 #sidenav > li > a:active,
 #sidenav > li > a.active{
+	color: rgba(0,0,0,0.7);
+	background-color:rgba(0,0,0,0.15);
+	border-right:thick rgba(0,0,0,0.15);
+}
+
+#sidenav > li > a:focus{
+	background-color:rgba(0,0,0,0.15);
+}
+
+#sidenav > li > a.active{
+	color:#FFC904;
 	background-color:black;
 	border-left:solid thick #FFC904;
 	border-right:solid thick black;
+	padding-left:11px;
 }
+
 
 #head{
 	padding-top:70px;
@@ -155,8 +179,8 @@ ul.affix{
 
 body {
 	position:relative;
-  overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #filler{
@@ -164,5 +188,5 @@ body {
 }
 
 footer{
-	margin-top:50px;
+	margin-top:30px;
 }

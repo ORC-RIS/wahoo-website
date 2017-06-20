@@ -2,7 +2,7 @@
 
 $(document).scroll(function() {
 	// Get current scroll position
-	var scroll_top = $(document).scrollTop() + 51;
+	var scroll_top = $(document).scrollTop() + 95;
 	
 	// Count the number of items in side nav
 	var count = document.getElementById("sidenav").childElementCount;
