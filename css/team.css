@@ -161,7 +161,7 @@ ul.affix{
 }
 
 #sidenav > li > a:focus{
-	background-color:rgba(0,0,0,0.15);
+	background-color:white;
 }
 
 #sidenav > li > a.active{

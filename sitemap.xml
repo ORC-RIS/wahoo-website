@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://wahoo.research.ucf.edu/</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://wahoo.research.ucf.edu/ExpandedTeam.html</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://wahoo.research.ucf.edu/files/Wahoo%20Project%20Charter.pdf</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wahoo.research.ucf.edu/files/Presentation%20Exceptional%20Funding%20Request.pdf</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wahoo.research.ucf.edu/files/Project%20KickOff%20Meeting%20Web.pdf</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://wahoo.research.ucf.edu/files/UCF%20Kickoff%20Presentation%20Attain%20Consulting.pdf</loc>
+  <lastmod>2017-06-20T20:43:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+</urlset>
