@@ -26,8 +26,8 @@ ul.affix{
 }
 
 div div div.col-md-9 div{
-	padding-top:10px;
-	padding-bottom:20px;
+	padding-top:5px;
+	padding-bottom:0px;
 }
 
 #head,
@@ -182,6 +182,10 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+
+
+
 
 #filler{
 	margin-top:70px;
