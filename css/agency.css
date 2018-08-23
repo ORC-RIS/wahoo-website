@@ -1006,6 +1006,38 @@ ul.cd-faq-group {
 	background-color: #eeeeee !important;
 }
 
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  float:right;
+  position: fixed;
+  top: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+   
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+  left:-100px;
+ 
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  left:0;
+}
+
+.facebook {
+  background: rgba(255,202,6,1);
+  color: white;
+}
 
 
 
@@ -1061,6 +1093,7 @@ ul.cd-faq-group {
   .carousel-inner {
 	  height:675px  !important;
   }
+
 }
 
 /* On screens that are 992px or more, set the background color to blue */
@@ -1276,7 +1309,9 @@ ul.cd-faq-group {
 
 	#content-desktop {display: none;}
 	#content-mobile {display: block;}
-
+  .icon-bar {
+	  display:none;
+  }
 }
 
 
@@ -1342,6 +1377,7 @@ ul.cd-faq-group {
       display: block;
 
   }
+
 }
 
 /* On screens that are 600px or less, set the background color to blue */
@@ -1390,5 +1426,8 @@ ul.cd-faq-group {
   
   .portfolio-link{
   	text-align:center;
+  }
+    .icon-bar {
+	  display:none;
   }
 }
