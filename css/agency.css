@@ -1012,9 +1012,10 @@ ul.cd-faq-group {
   position: fixed;
   top: 95%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-   
+  -ms-transform: translateY(-35%);
+  transform: translateY(-30%);
+    
+
 }
 
 /* Style the icon bar links */
@@ -1026,19 +1027,40 @@ ul.cd-faq-group {
   color: white;
   font-size: 14px;
   left:-100px;
+    
+    
+     
  
 }
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   left:0;
+    
+    
+        
+    
+      -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+ 
 }
 
 .facebook {
   background: rgba(255,202,6,1);
   color: white;
+    
+    
+
+
 }
 
+$slideout{
+    
+    
+}
 
 
 /* Media Queries */
