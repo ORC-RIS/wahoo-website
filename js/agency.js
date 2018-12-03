@@ -86,11 +86,12 @@ jQuery(document).ready(function($){
 	});
 
 	//update category sidebar while scrolling
+	/* 
 	$(window).on('scroll', function(){
 		if ( $(window).width() > MqL ) {
 			(!window.requestAnimationFrame) ? updateCategory() : window.requestAnimationFrame(updateCategory); 
 		}
-	});
+	}); */
 
 	$(window).on('resize', function(){
 		if($(window).width() <= MqL) {
