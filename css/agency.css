@@ -163,6 +163,10 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 
+.top-nav-collapse {
+    padding: 0 !important;
+    /* background: rgba(0,0,0, 0.8) !important; */
+}
 .navbar-custom .navbar-brand {
   color: rgba(255,202,6,1);
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
